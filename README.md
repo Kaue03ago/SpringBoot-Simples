@@ -23,11 +23,6 @@
 
 # Endpoints da API
 
-
-```http
-  GET /api/items/${id}
-```
-
 | Parâmetro                 | Descrição                                    |
 | :----------               | :----------                                  |
 | `POST /products`          | `Cria novos produtos`                        |
