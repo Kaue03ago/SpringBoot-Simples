@@ -15,9 +15,9 @@ Esta é uma implementação básica de um Spring Boot.
 
 #### 1- Clone o repositório 
 
-```http
+http
  git clone https://github.com/Kaue03ago/SpringBoot-Simples.git
-```
+
 #### 2- Navegue até o diretório do projeto:
 
 ```http
