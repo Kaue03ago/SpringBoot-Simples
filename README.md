@@ -1,7 +1,7 @@
 
 # Spring Boot Básico
 
-Está é uma implementação básica de um Spring Boot, por enquanto! O intuito é realizar o desenvolvimento de mais funcionalidade para ele.
+Esta é uma implementação básica de um Spring Boot.
 
 # Preparação Ambiente:
 - JDK 17
@@ -9,6 +9,8 @@ Está é uma implementação básica de um Spring Boot, por enquanto! O intuito 
 - Postman
 - PgAdmin (Postgres)
 - IDE (IntelliJ, STS, Eclipse, etc)
+
+  
 ## Instalação e Execução 
 
 #### 1- Clone o repositório 
@@ -51,7 +53,7 @@ Está é uma implementação básica de um Spring Boot, por enquanto! O intuito 
 
 #   Exemplo de requisições
 
-##### Utilizando o Postman.
+#### Utilizando o Postman.
 
 | Função                    |  Comando                                                                      | 
 | :----------               | :----------                                                                   | 
