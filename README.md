@@ -31,12 +31,9 @@ Está é uma implementação básica de um Spring Boot, por enquanto! O intuito 
 
 
 
+
+
 # Endpoints da API
-
-
-```http
-  GET /api/items/${id}
-```
 
 | Parâmetro                 | Descrição                                    |
 | :----------               | :----------                                  |
@@ -49,14 +46,17 @@ Está é uma implementação básica de um Spring Boot, por enquanto! O intuito 
 
 
 
+
+
+
 #   Exemplo de requisições
 
 ##### Utilizando o Postman.
 
-| Função                    |  Comando                                    | 
-| :----------               | :----------                                  | 
-| `POST `          | `http://localhost:8080/products`                        |
-| `GET `          | `http://localhost:8080/products`                        |
-| `GET `          | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`                        |
-| `PUT `          | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`                        |
-| `DELETE `          | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`                        |
+| Função                    |  Comando                                                                      | 
+| :----------               | :----------                                                                   | 
+| `POST `                   | `http://localhost:8080/products`                                              |
+| `GET `                    | `http://localhost:8080/products`                                              |
+| `GET `                    | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`         |
+| `PUT `                    | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`         |
+| `DELETE `                 | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`         |
