@@ -1,4 +1,14 @@
 
+# Spring Boot Básico
+
+Está é uma implementação básica de um Spring Boot, por enquanto! O intuito é realizar o desenvolvimento de mais funcionalidade para ele.
+
+# Preparação Ambiente:
+- JDK 17
+- Maven
+- Postman
+- PgAdmin (Postgres)
+- IDE (IntelliJ, STS, Eclipse, etc)
 ## Instalação e Execução 
 
 #### 1- Clone o repositório 
@@ -23,6 +33,11 @@
 
 # Endpoints da API
 
+
+```http
+  GET /api/items/${id}
+```
+
 | Parâmetro                 | Descrição                                    |
 | :----------               | :----------                                  |
 | `POST /products`          | `Cria novos produtos`                        |
@@ -41,94 +56,7 @@
 | Função                    |  Comando                                    | 
 | :----------               | :----------                                  | 
 | `POST `          | `http://localhost:8080/products`                        |
-
-##### Value
-
-```http
-  {
-    "name": "Fiat Toro 2023",
-    "value": 203.000
-  }
-```
-
-#### Return
-
-```http
-  201 Created 
-```
-
-
-
-
-
-| Função                    |  Comando                                    | 
-| :----------               | :----------                                  | 
 | `GET `          | `http://localhost:8080/products`                        |
-
-
-#### Return
-
-```http
-   {
-        "idProduct": "acfafa59-3763-4073-9317-5cbb3488467c",
-        "name": "Fiat Toro 2023",
-        "value": 203.00
-    }
-```
-
-
-
-| Função                    |  Comando                                    | 
-| :----------               | :----------                                  | 
 | `GET `          | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`                        |
-
-
-#### Return
-
-```http
-   {
-        "idProduct": "acfafa59-3763-4073-9317-5cbb3488467c",
-        "name": "Fiat Toro 2023",
-        "value": 203.00
-    }
-```
-
-
-
-| Função                    |  Comando                                    | 
-| :----------               | :----------                                  | 
 | `PUT `          | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`                        |
-
-
-
-##### Value
-
-```http
-  {
-    "name": "Fiat Toro 2020",
-    "value": 103.000
-  }
-```
-
-#### Return
-
-```http
-  201 Created 
-
-```
-
-| Função                    |  Comando                                    | 
-| :----------               | :----------                                  | 
 | `DELETE `          | `http://localhost:8080/products/acfafa59-3763-4073-9317-5cbb3488467c`                        |
-
-
-#### Return
-
-```http
-  204 NO CONTENT 
-
-```
-
-
-
-
